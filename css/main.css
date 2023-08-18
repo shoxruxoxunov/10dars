@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
+
+/* atomic-age-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Atomic Age";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/atomic-age-v27-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.site-logo {
+  font-size: 35px;
+  color: white;
+  font-family: "Atomic Age";
+}
+
+.hero {
+  height: 90.7vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/fon.bmw.jpg");
+  background-position: 100%;
+
+  background-size: 100%;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero-content-wrapper {
+  color: #ffffff;
+  width: 650px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 95px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: "Atomic Age";
+}
+
+.hero-desciription {
+  font-size: 40px;
+  font-family: "Atomic Age";
+  color: white;
+}
+
+.sitenav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitenav-item {
+}
+
+.sitenav-link {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.sitenav-item:hover {
+  background-color: rgba(157, 215, 215, 0.278);
+  color: aliceblue;
+}
+
+.sitenav-item:active {
+  background-color: rgba(4, 157, 157, 0.351);
+}
+
+.sitenav-item:focus {
+  background-color: aqua;
+  color: blue;
+}
